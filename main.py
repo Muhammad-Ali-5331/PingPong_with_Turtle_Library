@@ -78,4 +78,4 @@ while is_game_on:
         scoreboard.display_winner()  # Display the winner
         is_game_on = False  # End the game
 
-screen.exitonclick()  # Keep the screen open until clicked
+screen.exitonclick()  # Keep the screen open until clicked close screen
