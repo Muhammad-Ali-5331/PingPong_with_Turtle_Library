@@ -9,7 +9,7 @@ class Ball(Turtle):
         self.goto(0, 0)  # Start the ball at the center of the screen
         self.x_move = 5  # Set the initial movement speed in the x-direction
         self.y_move = 5  # Set the initial movement speed in the y-direction
-        self.move_speed = 0.1  # Set the initial delay between movements (controls speed)
+        self.move_speed = 3  # Set the initial delay between movements (controls speed)
 
     # Method to start the ball's movement
     def start_move(self):
